@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <PreferenceCategory
+        android:summary="Username and password information"
+        android:title="Settings" >
+        <CheckBoxPreference
+            android:key="checkBox"
+            android:summary="On/Off"
+            android:title="Keep me logged in" />
+        <ListPreference
+            android:entries="@array/dateformate"
+            android:entryValues="@array/datevalue"
+            android:key="date"
+            android:summary="Select date formate"
+            android:title="DATE FORMATE"
+            />
+
+        <ListPreference
+            android:entries="@array/listOptions"
+            android:entryValues="@array/listValues"
+            android:key="color"
+            android:summary="Choose Color"
+            android:title="CHOOSE COLOR" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listOptions">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Green</item>
+    </string-array>
+    <string-array name="dateformate">
+        <item>dd-mm-yyyy</item>
+        <item>dd/mm/yyyy</item>
+        <item>dd:mm:yyyy</item>
+        <item>yyyy-mm-dd</item>
+        <item>yyyy/mm/dd</item>
+        <item>yyyy:mm:dd</item>
+
+    </string-array>
+    <string-array name="datevalue">
+        <item>dd-mm-yyyy</item>
+        <item>dd/mm/yyyy</item>
+        <item>dd:mm:yyyy</item>
+        <item>yyyy-mm-dd</item>
+        <item>yyyy/mm/dd</item>
+        <item>yyyy:mm:dd</item>
+
+    </string-array>
+</resources>
